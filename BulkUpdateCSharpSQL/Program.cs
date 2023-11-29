@@ -4,9 +4,12 @@ using System.Data.SqlClient;
 
 namespace BulkUpdateCSharpSQL
 {
-    internal class Program
+    /// <summary>
+    /// change internal to public
+    /// </summary>
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var listPerson = new List<Person>
             {
